@@ -1,0 +1,43 @@
+{
+  "name": "game-with-back",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "start": "webpack-dev-server --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elnurmagerramli23/game-with-back.git"
+  },
+  "author": "frontEndTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elnurmagerramli23/game-with-back/issues"
+  },
+  "homepage": "https://github.com/elnurmagerramli23/game-with-back#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "@babel/core": "7.7.4",
+    "@babel/plugin-proposal-class-properties": "7.7.4",
+    "@babel/preset-env": "7.7.4",
+    "babel": "6.23.0",
+    "babel-cli": "6.26.0",
+    "babel-loader": "8.0.6",
+    "css-loader": "3.2.0",
+    "file-loader": "^5.0.2",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "3.2.0",
+    "image-webpack-loader": "^6.0.0",
+    "less": "3.10.3",
+    "less-loader": "5.0.0",
+    "mini-css-extract-plugin": "0.8.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
