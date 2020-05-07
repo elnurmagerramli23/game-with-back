@@ -21,7 +21,7 @@ class App{
     
     onPut = (request, response) => {
         const {body} = request;
-        this.controler.setIteamsJSON.parse(body);
+        this.controller.setIteams(JSON.parse(body));
         response.end();
     }
 }
