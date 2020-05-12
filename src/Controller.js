@@ -3,14 +3,8 @@ class Controller{
         this.model = model;
     }
     
-    init = () => {
-        this.getItems();
-        this.setItems();
-    }
-
-    getItems = (data) => {
-        this.model.getStorage(data);
-    }
+    getItems = () => this.model.getStorage();
+    
 
     setItems = (data) => {
         this.model.setStorage(data);

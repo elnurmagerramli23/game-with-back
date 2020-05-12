@@ -7,8 +7,8 @@ class Server {
     constructor(port) {
         this.port = port;
         this.model = new Model();
-        this.controller = new Controller();
-        this.app = new App();
+        this.controller = new Controller(this.model);
+        this.app = new App(this.controller);
         this.server = http.createServer(null, this.app.getApp());
     }
     
